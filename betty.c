@@ -8,7 +8,7 @@
 
 int betty(void)
 {
-	char *text = "Hello, Betty!";
-	printf("%s\n", text);
-	return 0;
+	char *text = "Hello, Betty!\n";
+	write(1, text, strlen(text));
+        return 0;
 }
