@@ -1,7 +1,7 @@
-#include main.h
+#include "main.h"
 
 /**
-* main - prints Hello Betty
+* betty - prints Hello Betty
 *
 * Return: 0 on success
 */
