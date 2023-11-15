@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include main.h
 
 /**
 * main - prints Hello Betty
@@ -6,7 +6,7 @@
 * Return: 0 on success
 */
 
-int main(void)
+int betty(void)
 {
 	char *text = "Hello, Betty!";
 	printf("%s\n", text);

@@ -13,5 +13,6 @@
 
 extern char **environ;
 
+int betty(void);
 int d_prompt(const char *prompt, unsigned int size);
 #endif
